@@ -1,5 +1,5 @@
 "use strict";
-console.log("This is the social security tax");
+console.log("This is the Social Security Tax:");
 //Get social security tax
 function getSocSecTax(grossPay) {
     const taxRate = 0.062;
@@ -14,7 +14,7 @@ getSocSecTax()
 
 //get Medicare Tax
 
-console.log("This is Medicare Tax");
+console.log("This is Medicare Tax:");
 getMedicareTax()
 
 
@@ -30,7 +30,7 @@ console.log("$" + getMedicareTax(30000));
 console.log("$" + getMedicareTax(10000));
 console.log("$" + getMedicareTax(5000));
 
-console.log("This is Federal Tax.")
+console.log("This is Federal Tax:")
 
 // get federal tax
 

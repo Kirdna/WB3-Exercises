@@ -1,0 +1,4 @@
+toString()
+toDateString()
+toUTCString()
+toLocaleString()

@@ -1,8 +1,9 @@
 "use strict";
 
-console.log("index started")
-let dateEnter = document.getElementById("dateEnter")
-let answer = document.getElementById("answer");
+console.log("index started");
+let calandar = document.getElementById("calandar");
+let anotherAnswer = document.getElementById("anotherAnswer");
+
 
 const calculateBtn = document.getElementById("calculateBtn");
 
@@ -15,7 +16,9 @@ function init(){
 
 function onCalculateBtnClicked(){
     console.log("Btn Clicked")
-    let userDate = new Date(dateEnter.value);
-    answer.innerHTML = (userDate.toUTCString());
+
+    let userDate = new Date(calandar.value);
+    anotherAnswer.innerHTML = (userDate.toString());
+
     console.log(userDate);
 }

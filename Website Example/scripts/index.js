@@ -5,7 +5,6 @@ const myButton = document.getElementById("myButton");
 const output = document.getElementById("output");
 
 window.onload = function () {
-    // do the work you want done when the form is complete here...
     console.log("inside init");
 
     myButton.onclick = doSomething;
